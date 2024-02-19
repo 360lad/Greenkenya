@@ -1,0 +1,45 @@
+.container {
+  margin: 3em;
+}
+
+body {
+  background-color: #f3f5d2;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+nav .nav__right ul li {
+  list-style-type: none;
+  justify-content: space-between;
+  align-items: center;
+  display: inline-block;
+  margin: 1em;
+}
+nav .nav__right ul li a {
+  text-decoration: none;
+  color: #000;
+  padding: 2em 1em;
+  border-radius: 5px;
+}
+nav .nav__right ul li :hover {
+  background-color: #94d961;
+}
+
+.introduction {
+  display: flex;
+}
+
+.plastic__images1 {
+  display: flex;
+}
+.plastic__images1 img {
+  gap: 1em;
+}
+
+.water__images {
+  display: flex;
+}
