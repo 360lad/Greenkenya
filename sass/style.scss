@@ -1,0 +1,22 @@
+@use "./utilities/mixins";
+@use "./utilities/variables";
+
+body {
+  background-color: #ced195;
+}
+.water__service {
+  display: flex;
+  box-shadow: solid,5px,lightgrey;
+}
+.employ__service{
+display: flex;
+}
+.plastic__service{
+display: flex;
+}
+.desert{
+    display: flex;
+}
+p{
+    font-size: 2em;
+}
