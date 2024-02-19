@@ -1,3 +1,7 @@
-.image {
-  border-radius: 2em;
+body {
+  background-color: #ced195;
+}
+
+.water__service {
+  display: flex;
 }
