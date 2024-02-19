@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .container {
   margin: 3em;
 }
@@ -42,4 +43,29 @@ nav .nav__right ul li :hover {
 
 .water__images {
   display: flex;
+=======
+body {
+  background-color: #ced195;
+}
+
+.water__service {
+  display: flex;
+  box-shadow: solid, 5px, lightgrey;
+}
+
+.employ__service {
+  display: flex;
+}
+
+.plastic__service {
+  display: flex;
+}
+
+.desert {
+  display: flex;
+}
+
+p {
+  font-size: 2em;
+>>>>>>> 97f26bb2f789c90711d2ee7034b3d7d2d59c8dff
 }
