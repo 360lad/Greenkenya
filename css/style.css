@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 .container {
   margin: 3em;
 }
@@ -31,7 +30,12 @@ nav .nav__right ul li :hover {
 }
 
 .introduction {
+  background-image: url("../images.green/planted-forest.jpeg");
   display: flex;
+  height: 100vh;
+}
+.introduction p {
+  color: #fff;
 }
 
 .plastic__images1 {
@@ -43,7 +47,41 @@ nav .nav__right ul li :hover {
 
 .water__images {
   display: flex;
-=======
+}
+
+footer {
+  background-color: #94d961;
+}
+footer .footer__container {
+  display: flex;
+  justify-content: space-around;
+}
+footer .footer__left {
+  padding: 2em;
+}
+footer .footer__center ul li {
+  list-style-type: none;
+}
+footer .footer__center ul li a {
+  text-decoration: none;
+  color: #000;
+}
+footer .footer__subscription {
+  display: flex;
+}
+footer .footer__input {
+  display: flex;
+  padding: 2em 3em;
+  border: none;
+  outline: none;
+}
+footer .subscribe__button {
+  padding: 2em 1em;
+  background-color: #000;
+  color: #E4EEF8;
+  border: none;
+}
+
 body {
   background-color: #ced195;
 }
@@ -67,5 +105,38 @@ body {
 
 p {
   font-size: 2em;
->>>>>>> 97f26bb2f789c90711d2ee7034b3d7d2d59c8dff
+}
+
+.desertification__products {
+  display: flex;
+  width: 100%;
+}
+
+.desertification__image1 {
+  width: 25%;
+  margin: 2em;
+  border: 2px solid #94d961;
+}
+
+.desertification__image2 {
+  width: 22%;
+  margin: 2em;
+  border: 2px solid #94d961;
+}
+
+.desertification__image3 {
+  width: 20%;
+  margin: 2em;
+  border: 2px solid #94d961;
+}
+
+.desertification__image4 {
+  width: 20%;
+  margin: 2em;
+  border: 2px solid #94d961;
+}
+
+.pic {
+  width: 100%;
+  justify-content: center;
 }
