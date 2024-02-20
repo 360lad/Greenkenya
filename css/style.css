@@ -104,7 +104,7 @@ body {
 }
 
 p {
-  font-size: 2em;
+  font-size: 1em;
 }
 
 .desertification__products {
@@ -139,4 +139,8 @@ p {
 .pic {
   width: 100%;
   justify-content: center;
+}
+
+.section__about {
+  background: url("images/");
 }

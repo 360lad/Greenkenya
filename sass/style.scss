@@ -102,7 +102,10 @@ body {
 }
 .water__service {
   display: flex;
-  box-shadow: solid, 5px, lightgrey;
+
+  
+  box-shadow: solid, 5px, lightgrey
+
 }
 .employ__service {
   display: flex;
@@ -113,9 +116,16 @@ body {
 .desert {
   display: flex;
 }
-p {
-  font-size: 2em;
+
+p{
+    font-size:1em;
 }
+
+
+
+  
+
+
 
 // SHOP PAGE
 
@@ -160,4 +170,8 @@ p {
 .pic{
   width:100%;
   justify-content: center;
+}
+
+.section__about{
+  background: url("images/");
 }
