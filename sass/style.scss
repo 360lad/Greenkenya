@@ -19,12 +19,21 @@ display: flex;
     display: flex;
 }
 p{
-    font-size: 2em;
+    font-size:1em;
 }
 // .b-image{
   // border: 5px solid white;
   // border-radius: 50%;
 // }
-@media screen and ()
+.section__about{
+  background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.5)), url("../images.green/forest.jpg") ;
+  height: 60vh;
+  color: whitesmoke;
+}
+.section__image{
+  @include flex{
+
+}
+}
   
 
