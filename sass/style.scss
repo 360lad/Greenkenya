@@ -1,35 +1,177 @@
-@use "./utilities/mixins";
-@use "./utilities/variables";
+@use "./utilities/mixins" as *;
+@use "./utilities/variables" as *;
+
+.container {
+  margin: 3em;
+}
+body {
+  background-color: $cream2;
+}
+
+nav {
+  @include flex(space-between, center);
+
+  .nav__right ul li {
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+    display: inline-block;
+
+    margin: 1em;
+  }
+  .nav__right ul li a {
+    text-decoration: none;
+    color: #000;
+    padding: 2em 1em;
+    border-radius: 5px;
+  }
+  .nav__right ul li :hover {
+    background-color: $green;
+  }
+}
+
+// /hero
+
+.introduction {
+  background-image: url("../images.green/planted-forest.jpeg");
+  display: flex;
+  height: 100vh;
+
+  p {
+    color: #fff;
+  }
+}
+
+.plastic__images1 {
+  display: flex;
+  img {
+    gap: 1em;
+  }
+}
+
+.water__images {
+  display: flex;
+}
+
+footer {
+  background-color: $green;
+  .footer__container {
+    display: flex;
+    justify-content: space-around;
+  }
+  .footer__left {
+    padding: 2em;
+  }
+  .footer__center ul li {
+    list-style-type: none;
+  }
+  .footer__center ul li a {
+    text-decoration: none;
+    color: #000;
+  }
+  // .footer__right{
+
+  // }
+  // .footer__searchbar {
+  //  display: flex;
+  // border: none;
+  // }
+
+  .footer__subscription {
+    display: flex;
+  }
+  .footer__input {
+    display: flex;
+    padding: 2em 3em;
+    border: none;
+    outline: none;
+  }
+  .subscribe__button {
+    padding: 2em 1em;
+    background-color: #000;
+    color: $cream;
+    border: none;
+  }
+}
+
+// @use "./utilities/mixins";
+// @use "./utilities/variables";
 
 body {
   background-color: #ced195;
 }
 .water__service {
   display: flex;
-  box-shadow: solid,5px,lightgrey;
+
   
+  box-shadow: solid, 5px, lightgrey
+
 }
-.employ__service{
-display: flex;
+.employ__service {
+  display: flex;
 }
-.plastic__service{
-display: flex;
+.plastic__service {
+  display: flex;
 }
-.desert{
-    display: flex;
+.desert {
+  display: flex;
 }
+
 p{
     font-size:1em;
 }
-// .b-image{
-  // border: 5px solid white;
-  // border-radius: 50%;
-// }
-.section__about{
-  background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.5)), url("../images.green/forest.jpg") ;
-  height: 60vh;
-  color: whitesmoke;
-}
+
+
 
   
 
+
+
+// SHOP PAGE
+
+.desertification__products {
+  display: flex;
+  width:100%;
+}
+
+.desertification__image1{
+  width: 25%;
+  margin: 2em;
+  border:2px solid $green;
+  // gap: 2em;
+
+}
+
+
+.desertification__image2{
+  width: 22%;
+  margin: 2em;
+  border:2px solid $green;
+}
+
+
+.desertification__image3{
+  width: 20%;
+  margin: 2em;
+  border:2px solid $green;
+  // gap: 2em;
+
+}
+
+
+.desertification__image4{
+  width: 20%;
+  margin: 2em; 
+  border:2px solid $green;
+  // gap: 2em;
+
+}
+
+.pic{
+  width:100%;
+  justify-content: center;
+}
+
+.section__about{
+  background: url("images/");
+}
