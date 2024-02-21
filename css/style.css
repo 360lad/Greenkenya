@@ -146,33 +146,9 @@ body {
   border-radius: 5%;
 }
 
-.desertification__image1 {
+.desertification__image {
   width: 25%;
-  margin: 2em;
-  border: 2px solid #94d961;
-  border-radius: 5%;
-  background-color: #94d961;
-}
-
-.desertification__image2 {
-  width: 22%;
-  margin: 2em;
-  border: 2px solid #94d961;
-  border-radius: 5%;
-  background-color: #94d961;
-}
-
-.desertification__image3 {
-  width: 20%;
-  margin: 2em;
-  border: 2px solid #94d961;
-  border-radius: 5%;
-  background-color: #94d961;
-}
-
-.desertification__image4 {
-  width: 20%;
-  margin: 2em;
+  margin: 1em;
   border: 2px solid #94d961;
   border-radius: 5%;
   background-color: #94d961;
@@ -224,8 +200,15 @@ body {
 }
 
 .shp__image {
-  height: 30vh;
-  width: 50vh;
+  height: 200px;
+}
+
+.shp__image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 5%;
 }
 
 .water__products {
@@ -244,4 +227,23 @@ body {
   border: 2px solid #94d961;
   border-radius: 5%;
   background-color: #94d961;
+}
+
+.contact__hero h1 {
+  text-align: center;
+}
+.contact__hero p {
+  text-align: center;
+}
+.contact__hero .form__container {
+  display: flex;
+  flex-direction: column;
+}
+.contact__hero .form {
+  width: 50%;
+  padding: 3em;
+  margin: 1em;
+  border: none;
+  outline: none;
+  border-radius: 5%;
 }

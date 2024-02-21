@@ -10,35 +10,9 @@
   border-radius: 5%;
 }
 
-.desertification__image1 {
+.desertification__image {
   width: 25%;
-  margin: 2em;
-  border: 2px solid $green;
-  border-radius: 5%;
-  background-color: $green;
-  // gap: 2em;
-}
-
-.desertification__image2 {
-  width: 22%;
-  margin: 2em;
-  border: 2px solid $green;
-  border-radius: 5%;
-  background-color: $green;
-}
-
-.desertification__image3 {
-  width: 20%;
-  margin: 2em;
-  border: 2px solid $green;
-  border-radius: 5%;
-  background-color: $green;
-  // gap: 2em;
-}
-
-.desertification__image4 {
-  width: 20%;
-  margin: 2em;
+  margin: 1em;
   border: 2px solid $green;
   border-radius: 5%;
   background-color: $green;
@@ -95,8 +69,15 @@
 }
 
 .shp__image {
-  height: 30vh;
-  width: 50vh;
+  height: 200px;
+  
+}
+
+.shp__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5%;
 }
 
 .water__products {
@@ -104,15 +85,12 @@
   width: 100%;
 }
 
-
-
 .water__content1 {
   display: flex;
   width: 100%;
-
 }
 
-.water__item{
+.water__item {
   width: 25%;
   margin: 0.5em;
   border: 2px solid $green;

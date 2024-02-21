@@ -1,0 +1,25 @@
+@use "../../utilities/mixins";
+@use "../../utilities/variables";
+
+.contact__hero{
+    
+    h1{
+        text-align: center;
+    }
+    p{
+        text-align: center;
+    }
+    .form__container{
+        display: flex;
+        flex-direction: column;
+    }
+    .form{
+        width:50%;
+        padding: 3em;
+        margin:1em;
+        border: none;
+        outline: none;
+        border-radius: 5%;
+
+    }
+}
