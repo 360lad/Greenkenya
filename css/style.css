@@ -217,7 +217,30 @@ body {
 
 .plastic__items {
   width: 25%;
-  margin: 2em;
+  margin: 0.5em;
+  border: 2px solid #94d961;
+  border-radius: 5%;
+  background-color: #94d961;
+}
+
+.shp__image {
+  height: 30vh;
+  width: 50vh;
+}
+
+.water__products {
+  display: flex;
+  width: 100%;
+}
+
+.water__content1 {
+  display: flex;
+  width: 100%;
+}
+
+.water__item {
+  width: 25%;
+  margin: 0.5em;
   border: 2px solid #94d961;
   border-radius: 5%;
   background-color: #94d961;

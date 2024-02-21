@@ -1,11 +1,6 @@
-@use "./utilities/mixins" as *;
-@use "./utilities/variables" as *;
+@use "./Pages/homepage/base";
+@use "./Pages/homepage/footer";
+@use "./Pages/homepage/header";
+@use "./Pages/homepage/hero";
 
-@import "./Pages/homepage/base";
-@import "./Pages/homepage/footer";
-@import "./Pages/homepage/header";
-@import "./Pages/homepage/hero";
-
-@import "./Pages/Shoppage/body";
-@import "./Pages/Shoppage/footer";
-@import "./Pages/Shoppage/header";
+@use "./Pages/Shoppage/body";

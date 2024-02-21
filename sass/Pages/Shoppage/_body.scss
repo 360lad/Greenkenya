@@ -1,99 +1,121 @@
-
-
-@use "./utilities/mixins" as *;
-@use "./utilities/variables" as *;
-
+@use "../../utilities/mixins" as *;
+@use "../../utilities/variables" as *;
 
 .desertification__products {
-    display: flex;
-    width: 100%;
-  }
-  
-  .desertification__products img {
-    border-radius: 5%;
-  }
-  
-  .desertification__image1 {
-    width: 25%;
-    margin: 2em;
-    border: 2px solid $green;
-    border-radius: 5%;
-    background-color: $green;
-    // gap: 2em;
-  }
-  
-  .desertification__image2 {
-    width: 22%;
-    margin: 2em;
-    border: 2px solid $green;
-    border-radius: 5%;
-    background-color: $green;
-  }
-  
-  .desertification__image3 {
-    width: 20%;
-    margin: 2em;
-    border: 2px solid $green;
-    border-radius: 5%;
-    background-color: $green;
-    // gap: 2em;
-  }
-  
-  .desertification__image4 {
-    width: 20%;
-    margin: 2em;
-    border: 2px solid $green;
-    border-radius: 5%;
-    background-color: $green;
-    // gap: 2em;
-  }
-  
-  .pic {
-    width: 100%;
-    justify-content: center;
-  }
-  
-  // .section__about{
-  // background: url("images/");
-  // }
-  
-  .gray {
-    color: gray;
-  }
-  
-  .Similar__btn {
-    padding: 1.5em 3em;
-    margin: 1em 2em;
-    border: none;
-    border-radius: 10%;
-    background-color: $cream2;
-    color: $green;
-    align-self: center;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .add__btn {
-    padding: 1.5em 3em;
-    margin: 1em 2em;
-    border: none;
-    border-radius: 10%;
-    background-color: $cream2;
-    color: $green;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .plastic__products{
-    display: flex;
-    width: 100%;
-  }
-  
-  .plastic__items{
-    width: 25%;
-    margin: 2em;
-    border: 2px solid $green;
-    border-radius: 5%;
-    background-color: $green;
-  }
-  
+  display: flex;
+  width: 100%;
+}
+
+.desertification__products img {
+  border-radius: 5%;
+}
+
+.desertification__image1 {
+  width: 25%;
+  margin: 2em;
+  border: 2px solid $green;
+  border-radius: 5%;
+  background-color: $green;
+  // gap: 2em;
+}
+
+.desertification__image2 {
+  width: 22%;
+  margin: 2em;
+  border: 2px solid $green;
+  border-radius: 5%;
+  background-color: $green;
+}
+
+.desertification__image3 {
+  width: 20%;
+  margin: 2em;
+  border: 2px solid $green;
+  border-radius: 5%;
+  background-color: $green;
+  // gap: 2em;
+}
+
+.desertification__image4 {
+  width: 20%;
+  margin: 2em;
+  border: 2px solid $green;
+  border-radius: 5%;
+  background-color: $green;
+  // gap: 2em;
+}
+
+.pic {
+  width: 100%;
+  justify-content: center;
+}
+
+// .section__about{
+// background: url("images/");
+// }
+
+.gray {
+  color: gray;
+}
+
+.Similar__btn {
+  padding: 1.5em 3em;
+  margin: 1em 2em;
+  border: none;
+  border-radius: 10%;
+  background-color: $cream2;
+  color: $green;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.add__btn {
+  padding: 1.5em 3em;
+  margin: 1em 2em;
+  border: none;
+  border-radius: 10%;
+  background-color: $cream2;
+  color: $green;
+  align-items: center;
+  justify-content: center;
+}
+
+.plastic__products {
+  display: flex;
+  width: 100%;
+}
+
+.plastic__items {
+  width: 25%;
+  margin: 0.5em;
+  border: 2px solid $green;
+  border-radius: 5%;
+  background-color: $green;
+}
+
+.shp__image {
+  height: 30vh;
+  width: 50vh;
+}
+
+.water__products {
+  display: flex;
+  width: 100%;
+}
+
+
+
+.water__content1 {
+  display: flex;
+  width: 100%;
+
+}
+
+.water__item{
+  width: 25%;
+  margin: 0.5em;
+  border: 2px solid $green;
+  border-radius: 5%;
+  background-color: $green;
+}
