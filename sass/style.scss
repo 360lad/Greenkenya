@@ -100,82 +100,73 @@ footer {
 body {
   background-color: #ced195;
 }
-.water__service {
-  display: flex;
+.service {
+  @include flex(space-between, center);
 
-  
-  box-shadow: solid, 5px, lightgrey
+  box-shadow: solid, 5px, lightgrey;
+}
 
-}
-.employ__service {
-  display: flex;
-}
-.plastic__service {
-  display: flex;
-}
+
 .desert {
-  display: flex;
+  @include flex(space-between, center);
 }
 
-p{
-    font-size:1em;
+p {
+  font-size: 1em;
 }
-.section__about{
-  background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../images.green/forest.jpg");
+.section__about {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images.green/forest.jpg");
   color: white;
   height: 60vh;
   font-size: 2em;
-
 }
-
-
-  
-
-
+.section__image {
+  @include flex(center, center, column);
+  gap: 1.5rem;
+  .image1 {
+    gap: 3rem;
+  }
+  img {
+    border-radius: 20px;
+  }
+}
 
 // SHOP PAGE
 
 .desertification__products {
   display: flex;
-  width:100%;
+  width: 100%;
 }
 
-.desertification__image1{
+.desertification__image1 {
   width: 25%;
   margin: 2em;
-  border:2px solid $green;
+  border: 2px solid $green;
   // gap: 2em;
-
 }
 
-
-.desertification__image2{
+.desertification__image2 {
   width: 22%;
   margin: 2em;
-  border:2px solid $green;
+  border: 2px solid $green;
 }
 
-
-.desertification__image3{
+.desertification__image3 {
   width: 20%;
   margin: 2em;
-  border:2px solid $green;
+  border: 2px solid $green;
   // gap: 2em;
-
 }
 
-
-.desertification__image4{
+.desertification__image4 {
   width: 20%;
-  margin: 2em; 
-  border:2px solid $green;
+  margin: 2em;
+  border: 2px solid $green;
   // gap: 2em;
-
 }
 
-.pic{
-  width:100%;
+.pic {
+  width: 100%;
   justify-content: center;
 }
-
-

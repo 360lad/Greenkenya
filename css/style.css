@@ -11,6 +11,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
+  flex-wrap: nowrap;
 }
 nav .nav__right ul li {
   list-style-type: none;
@@ -86,21 +87,21 @@ body {
   background-color: #ced195;
 }
 
-.water__service {
+.service {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
   box-shadow: solid, 5px, lightgrey;
-}
-
-.employ__service {
-  display: flex;
-}
-
-.plastic__service {
-  display: flex;
 }
 
 .desert {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
 }
 
 p {
@@ -112,6 +113,21 @@ p {
   color: white;
   height: 60vh;
   font-size: 2em;
+}
+
+.section__image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 1.5rem;
+}
+.section__image .image1 {
+  gap: 3rem;
+}
+.section__image img {
+  border-radius: 20px;
 }
 
 .desertification__products {
