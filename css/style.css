@@ -6,6 +6,16 @@ body {
   background-color: #f3f5d2;
 }
 
+h1 {
+  color: #94d961;
+  font-size: 3rem;
+}
+
+h2 {
+  color: #94d961;
+  font-size: 2rem;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -36,6 +46,7 @@ nav .nav__right ul li :hover {
 }
 .introduction p {
   color: #fff;
+  font-size: 2rem;
 }
 
 .plastic__images1 {
@@ -43,6 +54,26 @@ nav .nav__right ul li :hover {
 }
 .plastic__images1 img {
   gap: 1em;
+}
+.plastic__images1 .plastic__content {
+  background-color: #94d961;
+  margin: 2em;
+  padding: 2em;
+  border-radius: 10%;
+}
+.plastic__images1 .plastic__content img {
+  border-radius: 10%;
+}
+
+.water__content {
+  background-color: #94d961;
+  margin: 2em;
+  border-radius: 10%;
+  padding: 2em;
+}
+
+.water__content img {
+  border-radius: 10%;
 }
 
 .water__images {
@@ -92,7 +123,6 @@ body {
 
 .water__service {
   display: flex;
-  box-shadow: solid, 5px, lightgrey;
 }
 
 .employ__service {
@@ -107,40 +137,80 @@ body {
   display: flex;
 }
 
-p {
-  font-size: 1em;
-}
-
 .desertification__products {
   display: flex;
   width: 100%;
+}
+
+.desertification__products img {
+  border-radius: 5%;
 }
 
 .desertification__image1 {
   width: 25%;
   margin: 2em;
   border: 2px solid #94d961;
+  border-radius: 5%;
+  background-color: #94d961;
 }
 
 .desertification__image2 {
   width: 22%;
   margin: 2em;
   border: 2px solid #94d961;
+  border-radius: 5%;
+  background-color: #94d961;
 }
 
 .desertification__image3 {
   width: 20%;
   margin: 2em;
   border: 2px solid #94d961;
+  border-radius: 5%;
+  background-color: #94d961;
 }
 
 .desertification__image4 {
   width: 20%;
   margin: 2em;
   border: 2px solid #94d961;
+  border-radius: 5%;
+  background-color: #94d961;
 }
 
 .pic {
   width: 100%;
   justify-content: center;
+}
+
+.gray {
+  color: gray;
+}
+
+.Similar__btn {
+  padding: 1.5em 3em;
+  margin: 1em 2em;
+  border: none;
+  border-radius: 10%;
+  background-color: #f3f5d2;
+  color: #94d961;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.add__btn {
+  padding: 1.5em 3em;
+  margin: 1em 2em;
+  border: none;
+  border-radius: 10%;
+  background-color: #f3f5d2;
+  color: #94d961;
+  align-items: center;
+  justify-content: center;
+}
+
+.plastic__products {
+  display: flex;
+  width: 100%;
 }
