@@ -3,7 +3,7 @@
 
 .service {
   @include flex(space-between, center);
-  background-color: red;
+  
   .b-image img{
     padding-right:45%;
     border-radius:30px;
@@ -14,12 +14,16 @@
 
 .desert {
   @include flex(space-between, center);
+  
 }
 
 p {
   font-size: 1em;
+
 }
 .text {
   padding-left: 10%;
 }
+
+
 

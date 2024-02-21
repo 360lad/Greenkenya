@@ -2,7 +2,7 @@
 @use "./pages/services/hero";
 @use "./utilities/mixins" as *;
 @use "./utilities/variables" as *;
-@use"./pages/services/hero";
+@use "./pages/aboutus/section" as *;
 
 .container {
   margin: 3em;
