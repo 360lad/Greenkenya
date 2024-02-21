@@ -1,0 +1,23 @@
+@use "./utilities/mixins" as *;
+@use "./utilities/variables" as *;
+
+.service {
+  @include flex(space-between, center);
+  border: 20px;
+  box-shadow: solid, 5px, lightgrey;
+  .b-image {
+    padding-right: 25%;
+    background-color: red;
+  }
+}
+
+.desert {
+  @include flex(space-between, center);
+}
+
+p {
+  font-size: 1em;
+}
+.text {
+  padding-left: 25%;
+}

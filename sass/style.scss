@@ -1,6 +1,9 @@
 @use "./utilities/mixins" as *;
 @use "./utilities/variables" as *;
 
+@import "./pages/aboutus/section";
+@import "./pages/services/hero";
+
 .container {
   margin: 3em;
 }
@@ -99,37 +102,6 @@ footer {
 
 body {
   background-color: #ced195;
-}
-.service {
-  @include flex(space-between, center);
-
-  box-shadow: solid, 5px, lightgrey;
-}
-
-
-.desert {
-  @include flex(space-between, center);
-}
-
-p {
-  font-size: 1em;
-}
-.section__about {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../images.green/forest.jpg");
-  color: white;
-  height: 60vh;
-  font-size: 2em;
-}
-.section__image {
-  @include flex(center, center, column);
-  gap: 1.5rem;
-  .image1 {
-    gap: 3rem;
-  }
-  img {
-    border-radius: 20px;
-  }
 }
 
 // SHOP PAGE
