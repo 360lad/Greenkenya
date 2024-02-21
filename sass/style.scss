@@ -1,8 +1,8 @@
+@use "./pages/aboutus/section";
+@use "./pages/services/hero";
 @use "./utilities/mixins" as *;
 @use "./utilities/variables" as *;
 
-@import "./pages/aboutus/section";
-@import "./pages/services/hero";
 
 .container {
   margin: 3em;
