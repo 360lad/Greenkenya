@@ -1,0 +1,68 @@
+@use "./utilities/mixins" as *;
+@use "./utilities/variables" as *;
+
+
+// /hero
+
+.introduction {
+    background-image: url("../images.green/planted-forest.jpeg");
+    display: flex;
+    height: 100vh;
+  
+    p {
+      color: #fff;
+      font-size: 2rem;
+    }
+  }
+  
+  .plastic__images1 {
+    display: flex;
+    img {
+      gap: 1em;
+    }
+    .plastic__content {
+      background-color: $green;
+      margin: 2em;
+      padding: 2em;
+      border-radius: 10%;
+    }
+  
+    .plastic__content img {
+      border-radius: 10%;
+    }
+  }
+  
+  .water__content {
+    background-color: $green;
+    margin: 2em;
+    border-radius: 10%;
+    padding: 2em;
+  }
+  
+  .water__content img{
+    border-radius: 10%;
+  }
+  .water__images {
+    display: flex;
+  }
+  
+  .desert__images {
+    width: 100%;
+  }
+  body {
+    background-color: #ced195;
+  }
+  .water__service {
+    display: flex;
+  
+    // box-shadow: solid, 5px, lightgrey
+  }
+  .employ__service {
+    display: flex;
+  }
+  .plastic__service {
+    display: flex;
+  }
+  .desert {
+    display: flex;
+  }
