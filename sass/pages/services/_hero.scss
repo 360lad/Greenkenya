@@ -1,12 +1,14 @@
-@use "./utilities/mixins" as *;
-@use "./utilities/variables" as *;
+@use "../../utilities/mixins" as *;
+@use "../../utilities/variables" as *;
 
 .service {
   @include flex(space-between, center);
-  border: 20px;
-  box-shadow: solid, 5px, lightgrey;
-  .b-image {
-    padding-right: 25%;
+  background-color: red;
+  .b-image img{
+    padding-right:45%;
+    border-radius:30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
   }
 }
 
@@ -18,5 +20,6 @@ p {
   font-size: 1em;
 }
 .text {
-  padding-left: 10% ;
+  padding-left: 10%;
 }
+

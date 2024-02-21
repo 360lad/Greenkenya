@@ -1,3 +1,57 @@
+
+.section__about {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images.green/forest.jpg");
+  color: white;
+  height: 60vh;
+  font-size: 2em;
+}
+
+.section__image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 1.5rem;
+}
+.section__image .image1 {
+  gap: 3rem;
+}
+.section__image img {
+  border-radius: 20px;
+}
+
+.service {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  box-shadow: 0 4px solid green;
+}
+.service .b-image img {
+  padding-right: 45%;
+  border-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+.desert {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+p {
+  font-size: 1em;
+}
+
+.text {
+  padding-left: 10%;
+}
+
 .container {
   margin: 3em;
 }
