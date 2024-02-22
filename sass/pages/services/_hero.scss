@@ -23,11 +23,7 @@ p {
   border-radius:80px;
 
 }
-// .container{
-//   width: 100%;
-//   margin: 0 auto;
-//   @include flex(space-between,center,column);
-// }
+
 @media screen and (max-width:815px){
   .service{
     display: flex;
