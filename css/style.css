@@ -1,52 +1,13 @@
-.container {
-  margin: 3em;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 2em;
 }
 
 body {
-  background-color: #f3f5d2;
-}
-
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: row;
-}
-nav .nav__right ul li {
-  list-style-type: none;
-  justify-content: space-between;
-  align-items: center;
-  display: inline-block;
-  margin: 1em;
-}
-nav .nav__right ul li a {
-  text-decoration: none;
-  color: #000;
-  padding: 2em 1em;
-  border-radius: 5px;
-}
-nav .nav__right ul li :hover {
-  background-color: #94d961;
-}
-
-.introduction {
-  background-image: url("../images.green/planted-forest.jpeg");
-  display: flex;
-  height: 100vh;
-}
-.introduction p {
-  color: #fff;
-}
-
-.plastic__images1 {
-  display: flex;
-}
-.plastic__images1 img {
-  gap: 1em;
-}
-
-.water__images {
-  display: flex;
+  font-family: "Poppins", sans-serif;
 }
 
 footer {
@@ -82,13 +43,158 @@ footer .subscribe__button {
   border: none;
 }
 
+@media screen and (max-width: 815px) {
+  .footer__container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .footer__left {
+    flex: 1;
+  }
+  .footer__center {
+    flex: 1;
+  }
+  .footer__right {
+    display: none;
+  }
+}
+.container {
+  margin: 2em 4em;
+}
+
+body {
+  background-color: #f3f5d2;
+}
+
+h1 {
+  color: #94d961;
+  font-size: 5rem;
+  text-align: center;
+}
+
+h2 {
+  color: #94d961;
+  font-size: 2rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+nav .nav__right ul li {
+  list-style-type: none;
+  justify-content: space-between;
+  align-items: center;
+  display: inline-block;
+  margin: 1em;
+}
+nav .nav__right ul li a {
+  text-decoration: none;
+  color: #000;
+  padding: 2em 1em;
+  border-radius: 5px;
+}
+nav .nav__right ul li :hover {
+  background-color: #94d961;
+}
+nav .nav__icon {
+  display: none;
+}
+
+@media screen and (max-width: 815px) {
+  nav .nav__right ul {
+    display: none;
+  }
+  nav .nav__icon {
+    display: inline-block;
+  }
+}
+.hero__btn {
+  display: block;
+  margin: 0 auto;
+  background-color: #f3f5d2;
+  color: #94d961;
+  padding: 2em 4em;
+  border: none;
+  border-radius: 10%;
+}
+
+.btn__hero {
+  margin: 6em;
+}
+
+.introduction {
+  background-image: url("../images.green/planted-forest.jpeg");
+  height: 100vh;
+}
+.introduction p {
+  color: #fff;
+  font-size: 2rem;
+}
+
+.introduction__paragraph {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  text-align: center;
+}
+
+.desert__images {
+  display: flex;
+}
+
+.desert__content {
+  background-color: #94d961;
+  margin: 1em;
+  padding: 1em;
+  border-radius: 10%;
+}
+
+.plastic__images1 {
+  display: flex;
+}
+.plastic__images1 img {
+  gap: 1em;
+}
+.plastic__images1 .plastic__content {
+  background-color: #94d961;
+  margin: 2em;
+  padding: 2em;
+  border-radius: 10%;
+}
+.plastic__images1 .plastic__content img {
+  border-radius: 10%;
+}
+
+.water__content {
+  background-color: #94d961;
+  margin: 2em;
+  border-radius: 10%;
+  padding: 2em;
+}
+
+.water__content img {
+  border-radius: 10%;
+}
+
+.water__images {
+  display: flex;
+}
+
+.desert__images {
+  width: 100%;
+}
+
 body {
   background-color: #ced195;
 }
 
 .water__service {
   display: flex;
-  box-shadow: solid, 5px, lightgrey;
 }
 
 .employ__service {
@@ -103,37 +209,60 @@ body {
   display: flex;
 }
 
-p {
-  font-size: 1em;
+@media screen and (max-width: 815px) {
+  .hero {
+    width: 100%;
+  }
+  .hero .introduction img {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .hero .introduction p {
+    font-size: 1em;
+    flex-wrap: wrap;
+  }
+  .hero .desert__paragraph {
+    flex-wrap: wrap;
+  }
+  .hero .desert__paragraph .desert__paragraph h2 {
+    flex-wrap: wrap;
+  }
+  .desert__images {
+    display: flex;
+    flex-direction: column;
+  }
+  .plastic__images1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .plastic__images1 p {
+    flex-wrap: wrap;
+    font-size: 1em;
+  }
+  .water__images {
+    display: flex;
+    flex-direction: column;
+  }
+  .water__images p {
+    font-size: 1em;
+    flex-wrap: wrap;
+  }
 }
-
 .desertification__products {
   display: flex;
   width: 100%;
 }
 
-.desertification__image1 {
+.desertification__products img {
+  border-radius: 5%;
+}
+
+.desertification__image {
   width: 25%;
-  margin: 2em;
+  margin: 1em;
   border: 2px solid #94d961;
-}
-
-.desertification__image2 {
-  width: 22%;
-  margin: 2em;
-  border: 2px solid #94d961;
-}
-
-.desertification__image3 {
-  width: 20%;
-  margin: 2em;
-  border: 2px solid #94d961;
-}
-
-.desertification__image4 {
-  width: 20%;
-  margin: 2em;
-  border: 2px solid #94d961;
+  border-radius: 5%;
+  background-color: #94d961;
 }
 
 .pic {
@@ -141,6 +270,158 @@ p {
   justify-content: center;
 }
 
-.section__about {
-  background: url("images/");
+.gray {
+  color: gray;
+}
+
+.Similar__btn {
+  padding: 1.5em 3em;
+  margin: 1em 2em;
+  border: none;
+  border-radius: 10%;
+  background-color: #f3f5d2;
+  color: #94d961;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.add__btn {
+  padding: 1.5em 3em;
+  margin: 1em 2em;
+  border: none;
+  border-radius: 10%;
+  background-color: #f3f5d2;
+  color: #94d961;
+  align-items: center;
+  justify-content: center;
+}
+
+.plastic__products {
+  display: flex;
+  width: 100%;
+}
+
+.shp__image {
+  height: 200px;
+}
+
+.shp__image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 5%;
+  padding: 1em;
+}
+
+.water__products {
+  display: flex;
+  width: 100%;
+}
+
+.water__content1 {
+  display: flex;
+  width: 100%;
+}
+
+@media screen and (max-width: 815px) {
+  .desertification__items {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+  .desertification__products {
+    display: flex;
+    flex-direction: column;
+  }
+  .desertification__products div {
+    width: 100%;
+  }
+  .desertification__products p {
+    font-size: 0.5em;
+  }
+  .plastic__products {
+    display: flex;
+    flex-direction: column;
+  }
+  .plastic__products p {
+    font-size: 1em;
+  }
+  .plastic__products div {
+    width: 100%;
+  }
+  .water__content1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .water__content1 p {
+    font-size: 1em;
+  }
+  .water__content1 div {
+    width: 100%;
+  }
+  .Similar__btn {
+    padding: 0.5em 1em;
+    margin: 0.5em;
+    border: none;
+    border-radius: 10%;
+    background-color: #f3f5d2;
+    color: #94d961;
+    align-self: center;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  .add__btn {
+    padding: 0.5em 1em;
+    margin: 0.5em;
+    border: none;
+    border-radius: 10%;
+    background-color: #f3f5d2;
+    color: #94d961;
+    align-items: center;
+    justify-content: center;
+  }
+}
+.contact__hero .content__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.contact__hero h1 {
+  text-align: center;
+}
+.contact__hero p {
+  text-align: center;
+}
+.contact__hero .form__container {
+  display: flex;
+  flex-direction: column;
+  background-color: #94d961;
+  padding: 1.2em;
+}
+.contact__hero .form {
+  width: 100%;
+  padding: 2em;
+  margin: 1em;
+  border: none;
+  outline: none;
+  border-radius: 1%;
+}
+.contact__hero .contactus__card {
+  background-color: #94d961;
+  padding: 5em 3em;
+}
+.contact__hero .contact__info {
+  padding: 0.8em;
+}
+
+@media screen and (max-width: 815px) {
+  .content__container {
+    display: flex;
+    flex-direction: column;
+  }
 }

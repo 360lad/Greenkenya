@@ -1,0 +1,64 @@
+@use "../../utilities/mixins" as *;
+@use "../../utilities/variables" as *;
+
+
+footer {
+    background-color: $green;
+    .footer__container {
+      display: flex;
+      justify-content: space-around;
+    }
+    .footer__left {
+      padding: 2em;
+    }
+    .footer__center ul li {
+      list-style-type: none;
+    }
+    .footer__center ul li a {
+      text-decoration: none;
+      color: #000;
+    }
+    // .footer__right{
+  
+    // }
+    // .footer__searchbar {
+    //  display: flex;
+    // border: none;
+    // }
+  
+    .footer__subscription {
+      display: flex;
+    }
+    .footer__input {
+      display: flex;
+      padding: 2em 3em;
+      border: none;
+      outline: none;
+    }
+    .subscribe__button {
+      padding: 2em 1em;
+      background-color: #000;
+      color: $cream;
+      border: none;
+    }
+  }
+
+  @media screen and (max-width:815px) {
+    .footer__container{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+    .footer__left{
+      flex:1;
+    }
+    .footer__center{
+      flex: 1;
+    }
+    .footer__right{
+      display: none;
+      
+    }
+    
+    
+  }
