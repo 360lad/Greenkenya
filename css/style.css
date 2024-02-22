@@ -289,30 +289,61 @@ body {
 @media screen and (max-width: 815px) {
   .desertification__items {
     width: 100%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
   }
   .desertification__products {
     display: flex;
     flex-direction: column;
+  }
+  .desertification__products div {
     width: 100%;
   }
   .desertification__products p {
     font-size: 0.5em;
-    flex-wrap: wrap;
   }
   .plastic__products {
     display: flex;
     flex-direction: column;
   }
   .plastic__products p {
-    flex-wrap: wrap;
     font-size: 1em;
+  }
+  .plastic__products div {
+    width: 100%;
   }
   .water__content1 {
     display: flex;
     flex-direction: column;
   }
+  .water__content1 p {
+    font-size: 1em;
+  }
+  .water__content1 div {
+    width: 100%;
+  }
   .Similar__btn {
+    padding: 0.5em 1em;
+    margin: 0.5em;
+    border: none;
+    border-radius: 10%;
+    background-color: #f3f5d2;
+    color: #94d961;
+    align-self: center;
     align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  .add__btn {
+    padding: 0.5em 1em;
+    margin: 0.5em;
+    border: none;
+    border-radius: 10%;
+    background-color: #f3f5d2;
+    color: #94d961;
+    align-items: center;
+    justify-content: center;
   }
 }
 .contact__hero .content__container {
