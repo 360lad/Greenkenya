@@ -69,7 +69,8 @@ body {
 
 h1 {
   color: #94d961;
-  font-size: 3rem;
+  font-size: 5rem;
+  text-align: center;
 }
 
 h2 {
@@ -111,6 +112,19 @@ nav .nav__icon {
     display: content;
   }
 }
+.hero__btn {
+  display: flex;
+  background-color: #f3f5d2;
+  color: #94d961;
+  padding: 2em 4em;
+  list-style-type: none;
+  align-content: center;
+  justify-content: center;
+  text-decoration: none;
+  border: none;
+  border-radius: 10%;
+}
+
 .introduction {
   background-image: url("../images.green/planted-forest.jpeg");
   display: flex;
@@ -119,6 +133,12 @@ nav .nav__icon {
 .introduction p {
   color: #fff;
   font-size: 2rem;
+}
+.introduction .introduction__paragraph {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
 }
 
 .desert__images {

@@ -4,6 +4,22 @@
 
 // /hero
 
+.hero__btn{
+  display: flex;
+  background-color: $cream2;
+  color:$green;
+  padding: 2em 4em;
+  list-style-type: none;
+  align-content:center;
+  justify-content: center;
+  text-decoration: none;
+  border: none;
+  border-radius: 10%;
+
+ 
+  }
+
+
 .introduction {
     background-image: url("../images.green/planted-forest.jpeg");
     display: flex;
@@ -12,6 +28,9 @@
     p {
       color: #fff;
       font-size: 2rem;
+    }
+    .introduction__paragraph{
+   @include flex (center,center)
     }
   }
 
