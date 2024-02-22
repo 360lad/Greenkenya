@@ -109,36 +109,38 @@ nav .nav__icon {
     display: none;
   }
   nav .nav__icon {
-    display: content;
+    display: inline-block;
   }
 }
 .hero__btn {
-  display: flex;
+  display: block;
+  margin: 0 auto;
   background-color: #f3f5d2;
   color: #94d961;
   padding: 2em 4em;
-  list-style-type: none;
-  align-content: center;
-  justify-content: center;
-  text-decoration: none;
   border: none;
   border-radius: 10%;
 }
 
+.btn__hero {
+  margin: 6em;
+}
+
 .introduction {
   background-image: url("../images.green/planted-forest.jpeg");
-  display: flex;
   height: 100vh;
 }
 .introduction p {
   color: #fff;
   font-size: 2rem;
 }
-.introduction .introduction__paragraph {
+
+.introduction__paragraph {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row;
+  text-align: center;
 }
 
 .desert__images {

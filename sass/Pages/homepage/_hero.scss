@@ -1,143 +1,139 @@
 @use "../../utilities/mixins" as *;
 @use "../../utilities/variables" as *;
 
-
 // /hero
 
-.hero__btn{
-  display: flex;
+.hero__btn {
+  display: block;
+  margin: 0 auto;
   background-color: $cream2;
-  color:$green;
+  color: $green;
   padding: 2em 4em;
-  list-style-type: none;
-  align-content:center;
-  justify-content: center;
-  text-decoration: none;
+ 
   border: none;
   border-radius: 10%;
-
- 
-  }
-
+}
+.btn__hero{
+ margin: 6em;
+}
 
 .introduction {
-    background-image: url("../images.green/planted-forest.jpeg");
-    display: flex;
-    height: 100vh;
+  background-image: url("../images.green/planted-forest.jpeg");
   
-    p {
-      color: #fff;
-      font-size: 2rem;
-    }
-    .introduction__paragraph{
-   @include flex (center,center)
-    }
-  }
+  height: 100vh;
 
-  .desert__images{
-    display:flex;
-   
-  
+  p {
+    color: #fff;
+    font-size: 2rem;
   }
-  .desert__content{
-    background-color: $green;
-    margin: 1em;
-    padding: 1em;
-    border-radius: 10%;
+ 
+}
+
+.introduction__paragraph {
+  @include flex(center, center);
+  text-align: center;
+}
+
+.desert__images {
+  display: flex;
+}
+.desert__content {
+  background-color: $green;
+  margin: 1em;
+  padding: 1em;
+  border-radius: 10%;
+}
+
+.plastic__images1 {
+  display: flex;
+  img {
+    gap: 1em;
   }
-  
-  .plastic__images1 {
-    display: flex;
-    img {
-      gap: 1em;
-    }
-    .plastic__content {
-      background-color: $green;
-      margin: 2em;
-      padding: 2em;
-      border-radius: 10%;
-    }
-  
-    .plastic__content img {
-      border-radius: 10%;
-    }
-  }
-  
-  .water__content {
+  .plastic__content {
     background-color: $green;
     margin: 2em;
-    border-radius: 10%;
     padding: 2em;
-  }
-  
-  .water__content img{
     border-radius: 10%;
   }
-  .water__images {
-    display: flex;
+
+  .plastic__content img {
+    border-radius: 10%;
   }
-  
-  .desert__images {
+}
+
+.water__content {
+  background-color: $green;
+  margin: 2em;
+  border-radius: 10%;
+  padding: 2em;
+}
+
+.water__content img {
+  border-radius: 10%;
+}
+.water__images {
+  display: flex;
+}
+
+.desert__images {
+  width: 100%;
+}
+body {
+  background-color: #ced195;
+}
+.water__service {
+  display: flex;
+
+  // box-shadow: solid, 5px, lightgrey
+}
+.employ__service {
+  display: flex;
+}
+.plastic__service {
+  display: flex;
+}
+.desert {
+  display: flex;
+}
+
+@media screen and (max-width: 815px) {
+  .hero {
     width: 100%;
-  }
-  body {
-    background-color: #ced195;
-  }
-  .water__service {
-    display: flex;
-  
-    // box-shadow: solid, 5px, lightgrey
-  }
-  .employ__service {
-    display: flex;
-  }
-  .plastic__service {
-    display: flex;
-  }
-  .desert {
-    display: flex;
-  }
-
-  @media screen and (max-width:815px){
-    .hero{
+    .introduction img {
       width: 100%;
-      .introduction img{
-        width: 100%;
-        flex-wrap: wrap;
-      }
-      .introduction p{
-        font-size: 1em;
-        flex-wrap: wrap;
-      }
-
-      .desert__paragraph{
-        flex-wrap: wrap;
-        .desert__paragraph h2{
-          flex-wrap: wrap;
-        }
-      }
-     
-
-    }
-    .desert__images{
-      display: flex;
-      flex-direction: column;
-    }
-    
-    .plastic__images1{
-      display: flex;
-      flex-direction: column;
-    }
-    .plastic__images1 p{
       flex-wrap: wrap;
-      font-size: 01em;
     }
-    .water__images{
-      display: flex;
-      flex-direction: column;
-    }
-    .water__images p{
+    .introduction p {
       font-size: 1em;
       flex-wrap: wrap;
     }
+
+    .desert__paragraph {
+      flex-wrap: wrap;
+      .desert__paragraph h2 {
+        flex-wrap: wrap;
+      }
+    }
   }
+  .desert__images {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .plastic__images1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .plastic__images1 p {
+    flex-wrap: wrap;
+    font-size: 01em;
+  }
+  .water__images {
+    display: flex;
+    flex-direction: column;
+  }
+  .water__images p {
+    font-size: 1em;
+    flex-wrap: wrap;
+  }
+}
