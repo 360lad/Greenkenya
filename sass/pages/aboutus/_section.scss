@@ -21,3 +21,10 @@
 .section__image p{
   font-size:2em;
 }
+@media screen and (max-width:414px){
+  .section__about{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrapt;
+  }
+}
