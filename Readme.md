@@ -17,7 +17,7 @@ To acces the project live click here
 ## Screenshots
 
 This is how the images look
-![herosectionimage]
+![homepage]()
 
 ![Aboutusimage](/images/medicare-img2.png)
 
