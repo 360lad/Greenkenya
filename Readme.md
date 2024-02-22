@@ -17,9 +17,9 @@ To acces the project live click here
 ## Screenshots
 
 This is how the images look
-![homepage]()
+![homepage](/images.green/home-details.png)
 
-![Aboutusimage](/images/medicare-img2.png)
+![Aboutusimage](/images.green/shop-details.png)
 
 ## Technologies used
 
