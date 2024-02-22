@@ -3,27 +3,35 @@
 
 .service {
   @include flex(space-between, center);
-  
-  .b-image img{
-    padding-right:45%;
-    border-radius:30px;
-    border-top-right-radius: 30px;
-    border-bottom-right-radius: 30px;
+
+  .b-image img {
+    // padding-right: 45%;
+    border-radius:40%;
+    // border-top-right-radius:80px;
+    // border-bottom-right-radius: 30px;
   }
 }
 
-.desert {
-  @include flex(space-between, center);
-  
-}
+
+
 
 p {
   font-size: 1em;
-
 }
 .text {
-  padding-left: 10%;
+  padding-left:3rem;
 }
-
-
-
+.desert {
+  // border: 2px, solid, green;
+  // box-shadow: 1px 1px 1px 1px green;
+}
+.service {
+  // border: 2px, solid, green;
+  // box-shadow: 1px 1px 1px 1px green;
+  border-radius:80px;
+gap:2em;
+}
+.container{
+  width:70%;
+  // margin: 0 auto;
+}

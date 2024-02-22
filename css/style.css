@@ -20,6 +20,10 @@
   border-radius: 20px;
 }
 
+.section__image p {
+  font-size: 2em;
+}
+
 .service {
   display: flex;
   justify-content: space-between;
@@ -28,18 +32,7 @@
   flex-wrap: nowrap;
 }
 .service .b-image img {
-  padding-right: 45%;
-  border-radius: 30px;
-  border-top-right-radius: 30px;
-  border-bottom-right-radius: 30px;
-}
-
-.desert {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: row;
-  flex-wrap: nowrap;
+  border-radius: 40%;
 }
 
 p {
@@ -47,7 +40,16 @@ p {
 }
 
 .text {
-  padding-left: 10%;
+  padding-left: 3rem;
+}
+
+.service {
+  border-radius: 80px;
+  gap: 2em;
+}
+
+.container {
+  width: 70%;
 }
 
 .container {
