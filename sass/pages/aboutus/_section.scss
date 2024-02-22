@@ -5,8 +5,8 @@
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("../images.green/forest.jpg");
   color: white;
-  height: 60vh;
-  font-size: 2em;
+  height: 70vh;
+  font-size: 15px;
 }
 .section__image {
   @include flex(center, center, column);
@@ -18,13 +18,14 @@
     border-radius: 20px;
   }
 }
-.section__image p{
-  font-size:2em;
+.section__image p {
+  font-size: 1.5em;
 }
-@media screen and (max-width:414px){
-  .section__about{
+@media screen and (max-width: 414px) {
+  .section__about {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrapt;
+    flex-wrap: wrap;
+    text-align: center;
   }
 }

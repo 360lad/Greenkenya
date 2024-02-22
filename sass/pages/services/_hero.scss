@@ -32,7 +32,8 @@ p {
   .service{
     display: flex;
     flex-direction: column;
-    flex-wrap: wrapt;
+    flex-wrap: wrap;
+    text-align: center;
   }
 }
   
