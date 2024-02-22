@@ -24,10 +24,6 @@
   justify-content: center;
 }
 
-// .section__about{
-// background: url("images/");
-// }
-
 .gray {
   color: gray;
 }
@@ -60,17 +56,8 @@
   width: 100%;
 }
 
-.plastic__items {
-  width: 25%;
-  margin: 0.5em;
-  border: 2px solid $green;
-  border-radius: 5%;
-  background-color: $green;
-}
-
 .shp__image {
   height: 200px;
-  
 }
 
 .shp__image img {
@@ -90,10 +77,5 @@
   width: 100%;
 }
 
-.water__item {
-  width: 25%;
-  margin: 0.5em;
-  border: 2px solid $green;
-  border-radius: 5%;
-  background-color: $green;
+@media screen and(max-width:815px) {
 }
