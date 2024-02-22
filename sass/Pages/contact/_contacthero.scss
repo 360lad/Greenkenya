@@ -2,7 +2,7 @@
 @use "../../utilities/variables" as *;
 
 .contact__hero {
-  // align-content: center;
+
   .content__container {
     display: flex;
     justify-content: center;
@@ -35,7 +35,7 @@
     padding: 5em 3em;
   }
   .contact__info {
-    // margin: 3em;
+  
     padding: 0.8em;
   }
 }
