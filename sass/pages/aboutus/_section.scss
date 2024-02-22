@@ -1,0 +1,41 @@
+@use "../../utilities/mixins" as *;
+@use "../../utilities/variables" as *;
+
+.section__about {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images.green/forest.jpg");
+    
+
+  color: white;
+  height:80vh;
+  font-size: 15px;
+  width: 100%;
+  text-align: center;
+}
+.section__image {
+  @include flex(center, center, column);
+  gap: 1.5rem;
+  .image1 {
+    gap: 3rem;
+  }
+  img {
+    border-radius: 20px;
+  }
+}
+.section__image p {
+  font-size:1.4em;
+}
+@media screen and (max-width:815px) {
+  .section__about {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+}
+.section__about p{
+  font-size:1em;
+}
+.section__about image{
+  padding-left:30px;
+}
