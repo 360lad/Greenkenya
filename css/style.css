@@ -284,6 +284,7 @@ body {
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 5%;
+  padding: 1em;
 }
 
 .water__products {
