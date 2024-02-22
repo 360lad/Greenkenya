@@ -28,7 +28,7 @@ p {
   margin: 0 auto;
   @include flex(space-between,center,column);
 }
-@media screen and (max-width:414px){
+@media screen and (max-width:815px){
   .service{
     display: flex;
     flex-direction: column;
