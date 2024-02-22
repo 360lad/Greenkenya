@@ -199,14 +199,14 @@ body {
   }
   .plastic__images1 p {
     flex-wrap: wrap;
-    font-size: 0.5em;
+    font-size: 1em;
   }
   .water__images {
     display: flex;
     flex-direction: column;
   }
   .water__images p {
-    font-size: 0.5em;
+    font-size: 1em;
     flex-wrap: wrap;
   }
 }
@@ -264,14 +264,6 @@ body {
   width: 100%;
 }
 
-.plastic__items {
-  width: 25%;
-  margin: 0.5em;
-  border: 2px solid #94d961;
-  border-radius: 5%;
-  background-color: #94d961;
-}
-
 .shp__image {
   height: 200px;
 }
@@ -294,14 +286,35 @@ body {
   width: 100%;
 }
 
-.water__item {
-  width: 25%;
-  margin: 0.5em;
-  border: 2px solid #94d961;
-  border-radius: 5%;
-  background-color: #94d961;
+@media screen and (max-width: 815px) {
+  .desertification__items {
+    width: 100%;
+  }
+  .desertification__products {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .desertification__products p {
+    font-size: 0.5em;
+    flex-wrap: wrap;
+  }
+  .plastic__products {
+    display: flex;
+    flex-direction: column;
+  }
+  .plastic__products p {
+    flex-wrap: wrap;
+    font-size: 1em;
+  }
+  .water__content1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .Similar__btn {
+    align-items: center;
+  }
 }
-
 .contact__hero .content__container {
   display: flex;
   justify-content: center;

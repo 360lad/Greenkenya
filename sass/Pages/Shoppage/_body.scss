@@ -77,5 +77,34 @@
   width: 100%;
 }
 
-@media screen and(max-width:815px) {
+@media screen and (max-width:815px) {
+  .desertification__items{
+    width: 100%;
+
+  }
+  .desertification__products{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .desertification__products p{
+   font-size: 0.5em;
+   flex-wrap: wrap;
+  }
+ .plastic__products{
+  display: flex;
+  flex-direction: column;
+ }
+ .plastic__products p{
+  flex-wrap: wrap;
+  font-size: 1em;
+ }
+ .water__content1{
+  display: flex;
+  flex-direction: column;
+ }
+ .Similar__btn{
+  // width: 50%;
+  align-items: center;
+ }
 }
