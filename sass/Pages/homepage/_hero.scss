@@ -14,6 +14,18 @@
       font-size: 2rem;
     }
   }
+
+  .desert__images{
+    display:flex;
+   
+  
+  }
+  .desert__content{
+    background-color: $green;
+    margin: 1em;
+    padding: 1em;
+    border-radius: 10%;
+  }
   
   .plastic__images1 {
     display: flex;
@@ -65,4 +77,35 @@
   }
   .desert {
     display: flex;
+  }
+
+  @media screen and (max-width:815px){
+    .hero{
+      width: 100%;
+      .introduction img{
+        width: 100%;
+        flex-wrap: wrap;
+      }
+      .introduction p{
+        font-size: 1em;
+        flex-wrap: wrap;
+      }
+
+    }
+    .plastic__images1{
+      display: flex;
+      flex-direction: column;
+    }
+    .plastic__images1 p{
+      flex-wrap: wrap;
+      font-size: 0.5em;
+    }
+    .water__images{
+      display: flex;
+      flex-direction: column;
+    }
+    .water__images p{
+      font-size: 0.5em;
+      flex-wrap: wrap;
+    }
   }

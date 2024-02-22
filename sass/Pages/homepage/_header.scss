@@ -37,4 +37,19 @@
     .nav__right ul li :hover {
       background-color: $green;
     }
+    .nav__icon{
+      display: none;
+    }
+  }
+
+  @media screen and (max-width:815px){
+    nav{
+      .nav__right ul{
+        display:none;
+      }
+      .nav__icon{
+        display:content;
+      }
+    }
+  
   }

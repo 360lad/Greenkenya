@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 footer {
   background-color: #94d961;
 }
@@ -31,6 +37,22 @@ footer .subscribe__button {
   border: none;
 }
 
+@media screen and (max-width: 815px) {
+  .footer__container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .footer__left {
+    flex: 1;
+  }
+  .footer__center {
+    flex: 1;
+  }
+  .footer__right {
+    display: none;
+  }
+}
 .container {
   margin: 3em;
 }
@@ -71,7 +93,18 @@ nav .nav__right ul li a {
 nav .nav__right ul li :hover {
   background-color: #94d961;
 }
+nav .nav__icon {
+  display: none;
+}
 
+@media screen and (max-width: 815px) {
+  nav .nav__right ul {
+    display: none;
+  }
+  nav .nav__icon {
+    display: content;
+  }
+}
 .introduction {
   background-image: url("../images.green/planted-forest.jpeg");
   display: flex;
@@ -80,6 +113,17 @@ nav .nav__right ul li :hover {
 .introduction p {
   color: #fff;
   font-size: 2rem;
+}
+
+.desert__images {
+  display: flex;
+}
+
+.desert__content {
+  background-color: #94d961;
+  margin: 1em;
+  padding: 1em;
+  border-radius: 10%;
 }
 
 .plastic__images1 {
@@ -137,6 +181,35 @@ body {
   display: flex;
 }
 
+@media screen and (max-width: 815px) {
+  .hero {
+    width: 100%;
+  }
+  .hero .introduction img {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .hero .introduction p {
+    font-size: 1em;
+    flex-wrap: wrap;
+  }
+  .plastic__images1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .plastic__images1 p {
+    flex-wrap: wrap;
+    font-size: 0.5em;
+  }
+  .water__images {
+    display: flex;
+    flex-direction: column;
+  }
+  .water__images p {
+    font-size: 0.5em;
+    flex-wrap: wrap;
+  }
+}
 .desertification__products {
   display: flex;
   width: 100%;
@@ -229,6 +302,12 @@ body {
   background-color: #94d961;
 }
 
+.contact__hero .content__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
 .contact__hero h1 {
   text-align: center;
 }
@@ -245,5 +324,12 @@ body {
   margin: 1em;
   border: none;
   outline: none;
-  border-radius: 5%;
+  border-radius: 1%;
+}
+.contact__hero .contactus__card {
+  background-color: #94d961;
+  padding: 7em 3em;
+}
+.contact__hero .contact__info {
+  padding: 1em;
 }
