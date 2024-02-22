@@ -1,11 +1,10 @@
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 .section__about {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images.green/forest.jpg");
   color: white;
-  height: 80vh;
-  font-size: 15px;
+  height: 100vh;
+  font-size: 1em;
   width: 100%;
-  text-align: center;
 }
 
 .section__image {
@@ -24,7 +23,7 @@
 }
 
 .section__image p {
-  font-size: 1.4em;
+  font-size: 1em;
 }
 
 @media screen and (max-width: 815px) {
@@ -68,16 +67,6 @@ p {
   border-radius: 80px;
 }
 
-.container {
-  width: 70%;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: column;
-  flex-wrap: nowrap;
-}
-
 @media screen and (max-width: 815px) {
   .service {
     display: flex;
@@ -85,15 +74,7 @@ p {
     flex-wrap: wrap;
     text-align: center;
   }
-
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  line-height: 2em;
 }
-
 body {
   font-family: "Poppins", sans-serif;
 }
@@ -146,12 +127,7 @@ footer .subscribe__button {
   .footer__right {
     display: none;
   }
-
 }
-.container {
-  margin: 2em 4em;
-}
-
 body {
   background-color: #f3f5d2;
 }
@@ -230,6 +206,7 @@ nav .nav__icon {
   justify-content: center;
   align-items: center;
   flex-direction: row;
+  flex-wrap: nowrap;
   text-align: center;
 }
 
@@ -282,8 +259,6 @@ nav .nav__icon {
 body {
   background-color: #ced195;
 }
-
-
 
 .water__service {
   display: flex;
@@ -340,7 +315,6 @@ body {
     flex-wrap: wrap;
   }
 }
-
 .desertification__products {
   display: flex;
   width: 100%;
@@ -481,8 +455,6 @@ body {
 .contact__hero .content__container {
   display: flex;
   justify-content: center;
-
-
   align-items: center;
   text-align: center;
 }
@@ -519,5 +491,4 @@ body {
     display: flex;
     flex-direction: column;
   }
-
 }

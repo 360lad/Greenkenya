@@ -7,10 +7,10 @@
     
 
   color: white;
-  height:80vh;
-  font-size: 15px;
+  height:100vh;
+  font-size: 1em;
   width: 100%;
-  text-align: center;
+  // text-align: center;
 }
 .section__image {
   @include flex(center, center, column);
@@ -23,7 +23,7 @@
   }
 }
 .section__image p {
-  font-size:1.4em;
+  font-size:1em;
 }
 @media screen and (max-width:815px) {
   .section__about {

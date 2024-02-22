@@ -11,115 +11,13 @@
 @use "./Pages/homepage/base" ;
 @use "./Pages/homepage/footer";
 @use "./Pages/homepage/header";
-@use "./Pages/homepage/hero";
+@use "./Pages/homepage/homepagehero";
 
 @use "./Pages/Shoppage/body";
 @use "./Pages/contact/contacthero";
 
 
 
-
-.introduction {
-  background-image: url("../images.green/planted-forest.jpeg");
-  display: flex;
-  height: 100vh;
-
-  p {
-    color: #fff;
-  }
-}
-
-.plastic__images1 {
-  display: flex;
-  img {
-    gap: 1em;
-  }
-}
-
-.water__images {
-  display: flex;
-}
-
-footer {
-  background-color: $green;
-  .footer__container {
-    display: flex;
-    justify-content: space-around;
-  }
-  .footer__left {
-    padding: 2em;
-  }
-  .footer__center ul li {
-    list-style-type: none;
-  }
-  .footer__center ul li a {
-    text-decoration: none;
-    color: #000;
-  }
-  
-
-  .footer__subscription {
-    display: flex;
-  }
-  .footer__input {
-    display: flex;
-    padding: 2em 3em;
-    border: none;
-    outline: none;
-  }
-  .subscribe__button {
-    padding: 2em 1em;
-    background-color: #000;
-    color: $cream;
-    border: none;
-  }
-}
-
-// @use "./utilities/mixins";
-// @use "./utilities/variables";
-
-body {
-  background-color: #ced195;
-}
-
-// SHOP PAGE
-
-.desertification__products {
-  display: flex;
-  width: 100%;
-}
-
-.desertification__image1 {
-  width: 25%;
-  margin: 2em;
-  border: 2px solid $green;
-  // gap: 2em;
-}
-
-.desertification__image2 {
-  width: 22%;
-  margin: 2em;
-  border: 2px solid $green;
-}
-
-.desertification__image3 {
-  width: 20%;
-  margin: 2em;
-  border: 2px solid $green;
-  // gap: 2em;
-}
-
-.desertification__image4 {
-  width: 20%;
-  margin: 2em;
-  border: 2px solid $green;
-  // gap: 2em;
-}
-
-.pic {
-  width: 100%;
-  justify-content: center;
-}
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 
