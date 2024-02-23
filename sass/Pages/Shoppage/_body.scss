@@ -16,7 +16,6 @@
   border: 2px solid $green;
   border-radius: 5%;
   background-color: $green;
-  
 }
 
 .pic {
@@ -38,7 +37,6 @@
   align-self: center;
   align-items: center;
   justify-content: center;
-
 }
 
 .add__btn {
@@ -78,70 +76,63 @@
   width: 100%;
 }
 
-@media screen and (max-width:815px) {
-  .desertification__items{
+@media screen and (max-width: 815px) {
+  .desertification__items {
     width: 100%;
     justify-content: center;
     align-items: center;
     align-content: center;
-
   }
-  .desertification__products{
+  .desertification__products {
     display: flex;
     flex-direction: column;
-    
-  
   }
-  .desertification__products div{
-  width: 100%;
+  .desertification__products div {
+    width: 100%;
   }
-  .desertification__products p{
-   font-size: 0.5em;
-  
+  .desertification__products p {
+    font-size: 0.5em;
   }
- .plastic__products{
-  display: flex;
-  flex-direction: column;
-
- }
- .plastic__products p{
-  
-  font-size: 1em;
- }
- .plastic__products div{
-  width: 100%;
- }
- .water__content1{
-  display: flex;
-  flex-direction: column;
- }
- .water__content1 p{
-  font-size: 1em;
- }
- .water__content1 div{
-  width: 100%;
- }
- .Similar__btn{
-  
-  padding: 0.5em 1em;
-  margin: 0.5em ;
-  border: none;
-  border-radius: 10%;
-  background-color: $cream2;
-  color: $green;
-  align-self: center;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
- }
- .add__btn {
-  padding: 0.5em 1em;
-  margin: 0.5em;
-  border: none;
-  border-radius: 10%;
-  background-color: $cream2;
-  color: $green;
-  align-items: center;
-  justify-content: center;
-}
+  .plastic__products {
+    display: flex;
+    flex-direction: column;
+  }
+  .plastic__products p {
+    font-size: 1em;
+  }
+  .plastic__products div {
+    width: 100%;
+  }
+  .water__content1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .water__content1 p {
+    font-size: 1em;
+  }
+  .water__content1 div {
+    width: 100%;
+  }
+  .Similar__btn {
+    padding: 0.5em 1em;
+    margin: 0.5em;
+    border: none;
+    border-radius: 10%;
+    background-color: $cream2;
+    color: $green;
+    align-self: center;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  .add__btn {
+    padding: 0.5em 1em;
+    margin: 0.5em;
+    border: none;
+    border-radius: 10%;
+    background-color: $cream2;
+    color: $green;
+    align-items: center;
+    justify-content: center;
+  }
 }
