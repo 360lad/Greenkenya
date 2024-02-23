@@ -314,7 +314,6 @@ body {
   }
   .introduction__paragraph {
     flex-wrap: wrap;
-    width: 100%;
   }
   .desert__images {
     display: flex;
