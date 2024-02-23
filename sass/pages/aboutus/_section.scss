@@ -23,7 +23,7 @@
   }
 }
 .section__image p {
-  font-size:1em;
+  font-size:2em;
 }
 @media screen and (max-width:815px) {
   .section__about {
@@ -34,8 +34,12 @@
   }
 }
 .section__about p{
-  font-size:1em;
+  font-size:0.5em;
 }
 .section__about image{
-  padding-left:30px;
+  padding-left:3em;
+
+}
+h1{
+  flex-wrap: wrap;
 }

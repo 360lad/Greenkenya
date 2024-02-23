@@ -14,7 +14,7 @@ p {
   font-size: 1em;
 }
 .text {
-  padding-left:3rem;
+  padding-left:1em;
 }
 
 .service {
@@ -25,11 +25,23 @@ p {
 }
 
 @media screen and (max-width:815px){
+  
+
   .service{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     text-align: center;
+    padding: 1em;
+  }
+  h2{
+    flex-wrap: wrap;
+    font-size: 2em;
+  }
+  p{
+    flex-wrap: wrap;
+    font-size: 0.5em;
+  
   }
 }
   

@@ -23,7 +23,7 @@
 }
 
 .section__image p {
-  font-size: 1em;
+  font-size: 2em;
 }
 
 @media screen and (max-width: 815px) {
@@ -35,11 +35,15 @@
   }
 }
 .section__about p {
-  font-size: 1em;
+  font-size: 0.5em;
 }
 
 .section__about image {
-  padding-left: 30px;
+  padding-left: 3em;
+}
+
+h1 {
+  flex-wrap: wrap;
 }
 
 .service {
@@ -58,7 +62,7 @@ p {
 }
 
 .text {
-  padding-left: 3rem;
+  padding-left: 1em;
 }
 
 .service {
@@ -73,6 +77,15 @@ p {
     flex-direction: column;
     flex-wrap: wrap;
     text-align: center;
+    padding: 1em;
+  }
+  h2 {
+    flex-wrap: wrap;
+    font-size: 2em;
+  }
+  p {
+    flex-wrap: wrap;
+    font-size: 0.5em;
   }
 }
 body {
@@ -198,7 +211,8 @@ nav .nav__icon {
 }
 .introduction p {
   color: #fff;
-  font-size: 2rem;
+  font-size: 1rem;
+  flex-wrap: wrap;
 }
 
 .introduction__paragraph {
@@ -208,6 +222,7 @@ nav .nav__icon {
   flex-direction: row;
   flex-wrap: nowrap;
   text-align: center;
+  flex-wrap: wrap;
 }
 
 .desert__images {
@@ -277,6 +292,9 @@ body {
 }
 
 @media screen and (max-width: 815px) {
+  h1 {
+    font-size: 4rem;
+  }
   .hero {
     width: 100%;
   }
@@ -292,6 +310,9 @@ body {
     flex-wrap: wrap;
   }
   .hero .desert__paragraph .desert__paragraph h2 {
+    flex-wrap: wrap;
+  }
+  .introduction__paragraph {
     flex-wrap: wrap;
   }
   .desert__images {
@@ -379,7 +400,6 @@ body {
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 5%;
-  padding: 1em;
 }
 
 .water__products {
@@ -480,7 +500,7 @@ body {
 }
 .contact__hero .contactus__card {
   background-color: #94d961;
-  padding: 5em 3em;
+  padding: 3.4em 3em;
 }
 .contact__hero .contact__info {
   padding: 0.8em;
@@ -490,5 +510,22 @@ body {
   .content__container {
     display: flex;
     flex-direction: column;
+  }
+  .content__container .contact__hero h1 {
+    flex-wrap: wrap;
+  }
+  .content__container .contact__hero p {
+    flex-wrap: wrap;
+  }
+  .form__container {
+    flex: 1;
+    flex-wrap: wrap;
+  }
+  .contactus__card {
+    flex: 1;
+  }
+  .form {
+    width: 80%;
+    padding: 4em;
   }
 }

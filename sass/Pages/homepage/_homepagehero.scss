@@ -9,29 +9,30 @@
   background-color: $cream2;
   color: $green;
   padding: 2em 4em;
- 
+
   border: none;
   border-radius: 10%;
 }
-.btn__hero{
- margin: 6em;
+.btn__hero {
+  margin: 6em;
 }
 
 .introduction {
   background-image: url("../images.green/planted-forest.jpeg");
-  
+
   height: 100vh;
 
   p {
     color: #fff;
-    font-size: 2rem;
+    font-size: 1rem;
+    flex-wrap: wrap;
   }
- 
 }
 
 .introduction__paragraph {
   @include flex(center, center);
   text-align: center;
+  flex-wrap: wrap;
 }
 
 .desert__images {
@@ -83,7 +84,6 @@ body {
 }
 .water__service {
   display: flex;
-
 }
 .employ__service {
   display: flex;
@@ -96,6 +96,9 @@ body {
 }
 
 @media screen and (max-width: 815px) {
+  h1{
+    font-size: 4rem;
+  }
   .hero {
     width: 100%;
     .introduction img {
@@ -113,6 +116,10 @@ body {
         flex-wrap: wrap;
       }
     }
+  }
+  .introduction__paragraph {
+    flex-wrap: wrap;
+   
   }
   .desert__images {
     display: flex;

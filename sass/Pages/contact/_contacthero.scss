@@ -2,7 +2,6 @@
 @use "../../utilities/variables" as *;
 
 .contact__hero {
-
   .content__container {
     display: flex;
     justify-content: center;
@@ -28,21 +27,36 @@
     border: none;
     outline: none;
     border-radius: 1%;
-    
   }
   .contactus__card {
     background-color: $green;
-    padding: 5em 3em;
+    padding: 3.4em 3em;
   }
   .contact__info {
-  
     padding: 0.8em;
   }
 }
 
-@media screen and (max-width:815px) {
-  .content__container{
-  display: flex;
-  flex-direction: column;
+@media screen and (max-width: 815px) {
+  .content__container {
+    display: flex;
+    flex-direction: column;
+   .contact__hero h1{
+    flex-wrap: wrap;
+   }
+   .contact__hero p{
+    flex-wrap: wrap;
+   }
+  }
+  .form__container{
+    flex:1;
+    flex-wrap: wrap;
+  }
+  .contactus__card{
+    flex:1;
+  }
+  .form{
+    width: 80%;
+    padding: 4em;
   }
 }
